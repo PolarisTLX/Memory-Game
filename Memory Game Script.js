@@ -108,7 +108,7 @@ function pickCard(tileIndex, t){
     }
 }  else {
     console.log("Already in array!");
-    message.innerHTML = "What are you doing? You already clicked that one.";
+    message.innerHTML = "What are you doing? You can't click that one.";
   }
 }
 
